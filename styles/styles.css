@@ -35,6 +35,10 @@ main img{
     border: 5px solid black;
 }
 
+aside {
+    border: 2px solid green;
+}
+
 aside h2 {
     color: forestgreen;
 }
