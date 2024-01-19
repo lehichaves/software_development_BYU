@@ -4,7 +4,7 @@ nav {
 }
 
 nav a {
-    color: write;
+    color: #ffff;
     display: block;
     padding: 20px;
 }
@@ -23,4 +23,45 @@ img {
 
 p {
     padding: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+    border: 5px solid black;
+}
+
+aside h2 {
+    color: forestgreen;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    border: 5px solid yellow;
+    margin: 10px;
+    padding: 5px;
+    background-color: green;
+}
+
+aside p{
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    background-color: yellow;
+    border: 10px solid blue;
+}
+
+p{
+    padding: 0;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
