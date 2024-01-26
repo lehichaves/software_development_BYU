@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&family=Varela+Round&display=swap');
+
+:root {
+    --primary-color: #dce2aa;
+    --second-color: #b4d2ba;
+    --accent1-color: #4b543b;
+    --accent2-color: #b57f50;
+
+    --heading-font: 'Arial Black', serif;
+    --paragraph-font: 'Signika Negative', serif;
+    
+    --nav-background-color: #8ed081;
+    --nav-link-color: #b4d2ba;
+    --nav-hover-link-color: #dce2aa;
+    --nav-hover-background-color: #4b543b;
+}
+
+header {
+    color: var(--nav-hover-background-color)
+}
+
+h1, h2 {
+    color: var(--nav-hover-background-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.hero h1 {
+    position: absolute;
+    background-color: var(--nav-hover-link-color)
+    
+    
+}
+
