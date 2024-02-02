@@ -105,7 +105,6 @@ header, .grid, footer {
 main {
     grid-column: 2;
     margin: 1rem;
-    display: block;
 }
 
 
