@@ -15,38 +15,131 @@
     --nav-hover-background-color: #4b543b;
 }
 
+/* Body */
+
+body {
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+
+/* Header */
+
 header {
-    color: var(--nav-hover-background-color)
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 3px solid var(--nav-hover-background-color) ;
+    
+    
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: auto;
+    height: auto;
+    
 }
 
 h1, h2 {
     color: var(--nav-hover-background-color);
 }
 
-a {
-    text-decoration: none;
+nav {
+    padding-left: 5rem;
 }
 
-body {
-    width: 1000px;
-    margin: 0 auto;
+ul {
+    display: flex;
+    list-style: none;
 }
+
+ul li{
+    flex: 1 1 100%;
+   
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    
+}
+
+
+/*Main*/
 
 .hero {
     position: relative;
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border-bottom: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .hero img {
-    display: block;
-    width: 100%;
+    display: flex;
+    width: 600px;
     height: auto;
+    justify-content: center;
     
 }
 
 .hero h1 {
     position: absolute;
-    background-color: var(--nav-hover-link-color)
-    
+    background-color: var(--nav-hover-link-color);
     
 }
 
+.history {
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border-bottom: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*Section*/
+
+.adventures {
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border-bottom: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section h2 {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border-bottom: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+footer p {
+    margin-left: 250px;
+}
+
+footer nav {
+    margin-left: 200px;
+}
