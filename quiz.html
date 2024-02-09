@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lehi Chaves">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <div class="q1">
+                    <label>1. What does the acronym CSS stand for? <input type="text" name="q1"></label>
+                </div>
+                
+                <div class="q2">   
+                    <label>2. How are id and class attributes selected in CSS?</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Put your answer here..."></textarea>
+                </div>
+            
+                <div class="q3">
+                    <label for="q3">3. Which of the following is a valid CSS comment?</label>
+                    <select id="q3r" name="q3">
+                        <option value="Choose One...">Choose One</option>
+                        <option value="correct">/*   */</option>
+                        <option value="wrong">'!--   --!'</option>
+                    </select>
+                </div>
+
+                <div class="q4">
+                    <label>4. What is the bottom margin given this declaration? <input type="text" name="q4"></label>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 | HTML and CSS Quiz | Lehi Chaves</p>
+    </footer>
+</body>
+</html>
