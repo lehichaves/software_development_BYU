@@ -53,6 +53,39 @@
         
         </section>
 
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <div class="form-item column1">
+                        <label>Full Name: <input type="text" name="fullname"></label>
+                    </div>
+                    <div class="form-item column2">   
+                        <label>Email: <input type="text" name="useremail"></label>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="purpose">
+                    <label for="purpose">▬ What is the purpose of the message?</label>
+                    <select id="purpose" name="purpose">
+                        <option value="" selected disabled>Choose One</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="reservation">Reservation Question</option>
+                        <option value="suggestion">Website Suggestion</option>
+                    </select>
+                </div>
+                <textarea id="question" name="question" rows="4" placeholder="Describe here your question"></textarea>
+
+                <div class="subscribe">
+                    <label>▬ Please subscribe me to the monthly newsletter <input type="checkbox" id="yes" name="yes"></label>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
 
 
 
