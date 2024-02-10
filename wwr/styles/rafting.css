@@ -148,3 +148,44 @@ footer nav {
 
 /* Contact Page */
 
+#contactus {
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: grid;
+    border-style: double;
+    
+}
+
+iframe {
+    width: auto;
+}
+
+#employees {
+    margin-top: 5px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: double;
+    display: grid;
+}
+
+form {
+    margin-top: 10px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    display: grid;
+    border-style: double;
+    
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
