@@ -196,3 +196,88 @@ button:hover {
 
 /*Trips page*/
 
+.ptrip {
+    margin-top: 5px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+.rafting {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+.rafting11 {
+    width: 350px;
+    height: 250px;
+} 
+
+.rafting12 {
+    width: 350px;
+    height: 250px;
+}
+
+.trilha {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+.trilha1 {
+    width: 350px;
+    height: 250px;
+} 
+
+.trilha2 {
+    width: 350px;
+    height: 250px;
+}
+
+.camping {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+.camping1 {
+    width: 350px;
+    height: 250px;
+} 
+
+.camping2 {
+    width: 350px;
+    height: 250px;
+}
+
+.table {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
