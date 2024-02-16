@@ -196,7 +196,7 @@ button:hover {
 
 /*Trips page*/
 
-.ptrip {
+.trip {
     margin-top: 5px;
     background-color: var(--nav-hover-link-color);
     width: auto;
