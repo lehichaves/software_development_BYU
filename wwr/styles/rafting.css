@@ -226,7 +226,7 @@ button:hover {
     height: 250px;
 }
 
-.trilha {
+.trail {
     margin-top: 2px;
     background-color: var(--nav-hover-link-color);
     width: auto;
@@ -236,12 +236,12 @@ button:hover {
     text-align: center;
 }
 
-.trilha1 {
+.trail1 {
     width: 350px;
     height: 250px;
 } 
 
-.trilha2 {
+.trail2 {
     width: 350px;
     height: 250px;
 }
@@ -274,10 +274,10 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
-    
 }
 
 table, th, td {
     border: 1px solid black;
+    margin: auto;
 }
 
