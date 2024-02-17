@@ -285,3 +285,39 @@ table, th, td {
 
 /* Index/Home Page */
 
+.action {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+    font-size: 13px;
+}
+
+.homesection {
+    margin-top: 2px;
+    background-color: var(--nav-hover-link-color);
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    text-align: center;
+}
+
+.homesection h1{
+    font-size: 20px;
+}
+
+.homeimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    justify-items: center;
+}
+
+.photoshome {
+    width: 300px;
+    height: 200px;
+}
