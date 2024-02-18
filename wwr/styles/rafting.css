@@ -35,7 +35,15 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
-    border-bottom: 3px solid var(--nav-hover-background-color) ;
+    border-bottom: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    text-align: center;
     
     
 }
@@ -60,11 +68,6 @@ ul {
     list-style: none;
 }
 
-ul li{
-    flex: 1 1 100%;
-   
-}
-
 ul li a{
     display: block;
     text-decoration: none;
@@ -73,7 +76,7 @@ ul li a{
     
 }
 
-
+/*About */
 /*Main*/
 
 .hero {
@@ -83,11 +86,15 @@ ul li a{
     border-bottom: 2px solid var(--accent2-color);
     border-radius: 10px;
     padding: 10px;
+    margin-top: 5px;
+    width: auto;
+    border-style: double;
+    text-align: center;
 }
 
 .hero img {
     display: flex;
-    width: 600px;
+    width: 100%;
     height: auto;
     justify-content: center;
     
@@ -105,6 +112,10 @@ ul li a{
     border-bottom: 2px solid var(--accent2-color);
     border-radius: 10px;
     padding: 10px;
+    margin-top: 5px;
+    width: auto;
+    border-style: double;
+    text-align: center;
 }
 
 /*Section*/
@@ -116,7 +127,15 @@ ul li a{
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    text-align: center;
 }
+
+
+
 
 section h2 {
     font-size: 25px;
@@ -133,7 +152,8 @@ footer {
     border-bottom: 2px solid var(--accent2-color);
     border-radius: 10px;
     padding: 20px;
-    
+    margin-top: 5px;
+    border-style: double;
 }
 
 footer p {
@@ -151,11 +171,11 @@ footer nav {
 #contactus {
     background-color: var(--nav-hover-link-color);
     width: auto;
-    
     padding: 10px;
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
     
 }
 
@@ -171,6 +191,7 @@ iframe {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 #employees p {
@@ -187,6 +208,7 @@ form {
     border-radius: 10px;
     display: grid;
     border-style: double;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 button:hover {
@@ -209,6 +231,7 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .rafting {
@@ -219,6 +242,7 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .rafting11 {
@@ -239,6 +263,7 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .trail1 {
@@ -259,6 +284,7 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .camping1 {
@@ -279,6 +305,7 @@ button:hover {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 table, th, td {
@@ -299,6 +326,8 @@ table, th, td {
     border-style: double;
     text-align: center;
     font-size: 13px;
+    border-bottom: 2px solid var(--accent2-color);
+   
 }
 
 .homesection {
@@ -309,6 +338,7 @@ table, th, td {
     border-radius: 10px;
     border-style: double;
     text-align: center;
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .homesection h1{
