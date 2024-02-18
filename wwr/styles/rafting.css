@@ -151,11 +151,11 @@ footer nav {
 #contactus {
     background-color: var(--nav-hover-link-color);
     width: auto;
-    margin: 0 auto;
-    padding: 5px;
+    
+    padding: 10px;
     border-radius: 10px;
-    display: grid;
     border-style: double;
+    text-align: center;
     
 }
 
@@ -170,7 +170,12 @@ iframe {
     padding: 10px;
     border-radius: 10px;
     border-style: double;
-    display: grid;
+    text-align: center;
+}
+
+#employees p {
+    font-size: 20px;
+    
 }
 
 form {
@@ -182,7 +187,6 @@ form {
     border-radius: 10px;
     display: grid;
     border-style: double;
-    
 }
 
 button:hover {
@@ -193,6 +197,7 @@ button:hover {
     width:500px;
     
 }
+
 
 /*Trips page*/
 
